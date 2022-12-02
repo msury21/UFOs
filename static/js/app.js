@@ -109,15 +109,12 @@ function updateFilters() {
     if (filters["shape"]) {
         filteredData = filteredData.filter(row => row.shape === filters["shape"]);
     }
-    // Array.from(filters).forEach(function (ID) {
-    //     if (filters[ID]) {
-    //         filteredData = filteredData.filter(row => row.ID === filters[ID]);
-    //         console.log(filters[ID]);
-    //     }
-        
-    // })
+    
+    // for (var ID in filters) {
+    //     filteredData = filteredData.filter(row => row.ID === filters[ID]);
+    // };
+    //need ifferent way to call row?
 
-  
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
 };
