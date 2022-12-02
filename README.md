@@ -7,6 +7,7 @@ The purpose of this analysis is to create a table of UFO sightings that are able
 When using the site, the filtering search bars are already primed with example searches.
 
 ![blankfilters.png](static/images/blankfilters.png)
+
 Simply type one (or many) criteria in, and the table will be filtered to match what was entered.
 ![examplefilters.png](static/images/examplefilters.png)
 ![exampleresults.png](static/images/exampleresults.png)
